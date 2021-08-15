@@ -1,0 +1,47 @@
+{
+  "timeZone": "America/Los_Angeles",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Drive",
+        "serviceId": "drive",
+        "version": "v2"
+      }
+    ],
+    "libraries": [
+      {
+        "userSymbol": "BetterLog",
+        "libraryId": "1DSyxam1ceq72bMHsE6aOVeOl94X78WCwiYPytKi7chlg4x5GqiNXSw0l",
+        "version": "27"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "sheets": {
+    "macros": [
+      {
+        "menuName": "danRsp",
+        "functionName": "danRsp"
+      },
+      {
+        "menuName": "danRsp2",
+        "functionName": "danRsp2"
+      },
+      {
+        "menuName": "findPaights",
+        "functionName": "findPaights"
+      },
+      {
+        "menuName": "9newRows",
+        "functionName": "_9newRows",
+        "defaultShortcut": "Ctrl+Alt+Shift+1"
+      },
+      {
+        "menuName": "getExcelData",
+        "functionName": "getExcelData",
+        "defaultShortcut": "Ctrl+Alt+Shift+1"
+      }
+    ]
+  },
+  "runtimeVersion": "V8"
+}
